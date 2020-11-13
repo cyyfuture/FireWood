@@ -1,0 +1,26 @@
+<content-title name="Price" describe="价格">
+
+  <content-card name="{{item.title}}" wx:for="{{priceConfig}}" wx:key="item">
+    <view class='price-container'>
+      <l-price 
+        wx:for="{{item.config}}" 
+        wx:for-item="price"
+        wx:key="price"
+        l-class="price" 
+        unit="{{price.unit}}"
+        value="{{price.value}}"
+        unit-color="{{price.unitColor}}"
+        value-color="{{price.countColor}}"
+        unit-size="{{price.unitSize}}"
+        value-size="{{price.countSize}}"
+        value-bold="{{price.countBlod}}"
+        unit-bold="{{price.unitBlod}}"
+        deleted="{{price.del}}"
+        reserveDigit="{{price.reserveDigit}}"
+        autofix="{{price.autofix}}"
+        del-color="{{price.delColor}}"  />
+    </view>
+  </content-card>
+
+  <view class="a"></view>
+</content-title>

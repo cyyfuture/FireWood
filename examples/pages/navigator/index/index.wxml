@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="header">
+    <text class='header-desc'><text class='header-name your-style'>   firewood   </text></text>
+  </view>
+
+
+  <view class="item-title2">more</view>
+  <l-card type="primary" image="https://refe-1301866456.cos.ap-nanjing.myqcloud.com/NO2.png">
+    <view class="mytitle1" >WEBAPP wanted</view>
+    <view class="mycontent">要求：有空闲时间可以接单，最好有制作经验。</view>
+    <view class="prince2">
+      ￥80～100/day
+    </view>
+  </l-card>
+
+  <!-- cover -->
+  <view class="item-title2">more</view>
+  <l-card type="cover"  image="https://refe-1301866456.cos.ap-nanjing.myqcloud.com/coworker.jpg">
+    <view class="mytitle2">Co-Workers wanted</view>
+    <view class="mycontent">
+      要求：有良好的软件工程知识和质量意识，能够快速有效的融入团队，积极高效的工作。
+    </view>
+    <view class="prince">
+      ￥300～500/day
+    </view>
+  </l-card>
+
+  <view class="item-title2">more</view>
+  <l-card type="primary" l-img-class="right-card" position="right" 
+    image="https://7879-xy-5gf5b6p50536e388-1304009755.tcb.qcloud.la/wanted3.png" title="UI Designer wanted" l-title-class="mytitle2">
+    <view class="mycontent">
+      校级大创项目，诚招物联网传感器架构工程师一名！
+    </view>
+    <view class="prince2">
+      ￥80～100/day
+    </view>
+  </l-card>
+
+  <view class="item-title2">more</view>
+  <l-card type="primary" l-img-class="right-card" position="left"
+    image="https://7879-xy-5gf5b6p50536e388-1304009755.tcb.qcloud.la/wanted2.jpg">
+    <view class="mytitle1" >PHPer wanted!</view>
+    <view class="mycontent">
+      诚招一名PHP后段开发工程师，周期预计1个月。
+    </view>
+    <view class="prince">
+      ￥130～200/day
+    </view>
+  </l-card>
+
+
+
+</view>

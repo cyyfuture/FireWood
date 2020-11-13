@@ -1,0 +1,189 @@
+/**index.wxss**/
+.a {
+  width: 46.875rpx;
+  height: 20px;
+  background: rebeccapurple;
+  margin: 0 0 50rpx 50rpx;
+}
+
+.title {
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  text-align: center;
+
+}
+
+page {
+  background: #f7f7f7;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: #f7f7f7;
+  padding-bottom: 60rpx;
+
+
+}
+
+.header {
+  font-size: 28rpx;
+  height: 228rpx;
+  width: 750rpx;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  line-height: 36rpx;
+  background:  #4164b6;
+  border-radius: 0 0 20rpx 20rpx;
+  box-shadow: 0px 4px 20px 0px rgba(0, 49, 107, 0.3);
+  box-sizing: border-box;
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 150rpx;
+  z-index: 1;
+}
+
+.header-desc {
+  position: absolute;
+  z-index: 2;
+  font-size: 28rpx;
+  margin: 60rpx 0 0 60rpx;
+  line-height: 48rpx;
+}
+
+
+.your-style {
+  font-family: 'Alegreya Sans SC';
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 120rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 690rpx;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.shop-card {
+  padding: 30rpx 40rpx !important;
+  margin-top: 30rpx !important;
+  margin-bottom: 200rpx !important;
+}
+
+.card-img {
+  width: 100rpx !important;
+  height: 100rpx !important;
+}
+
+.card-title {
+  color: #3963bc !important;
+}
+
+.shop-dec {
+  font-size: 28rpx;
+  color: #8c98ae;
+  margin-top: 15rpx;
+}
+
+.item-title {
+  margin-bottom: 1px;
+  /*标题行距离下行的边距大一些*/
+  margin-top: 0px;
+  border-right: 3px solid #8c98ae;
+  /*左边加边框*/
+  text-align: right;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+  color:darkgrey;
+  text-decoration:underline;
+  font-style:italic
+}
+
+.item-title2{
+  margin-bottom:1px; /*标题行距离下行的边距大一些*/
+  margin-top: 10px;
+  border-right: 3px solid #8c98ae;/*左边加边框*/
+  text-align: right;
+  padding-left: 15px;
+  padding-top:15px;
+  padding-right:15px;
+  padding-bottom:1px;
+  font-family: 'NSimSun';
+  text-decoration:underline;
+  color:darkgrey;
+  text-decoration:underline;
+  font-style:italic；
+  
+}
+
+
+
+.title-table {
+  font-size: 18px;
+  color: #8c98ae;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+.title-content {
+  font-size: 14px;
+  color: black;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+
+}
+
+.mytitle1 {
+  font-family: 'Alegreya Sans SC';
+  font-weight: bolder;
+  font-size: 20px;
+  color: #8b4513;
+}
+.mytitle2 {
+  font-family: 'Alegreya Sans SC';
+  font-weight: bolder;
+  font-size: 25px;
+  color: #8b4513;
+}
+
+
+.mycontent{
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 450;
+  font-family: 'Microsoft JhengHei';
+  color: black;
+  text-indent:16px;
+}
+
+.prince{
+font-size: 17px;
+color: rgb(81, 129, 119);
+font-weight: 500;
+text-align: right;
+margin-top: 10px;
+font-family: 'Alegreya Sans SC';
+}
+
+.prince2{
+  font-size: 17px;
+  color: rgb(81, 129, 119);
+  font-weight: 500;
+  text-align: left;
+  margin-top: 10px;
+  font-family: 'Alegreya Sans SC';
+  }

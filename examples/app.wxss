@@ -1,0 +1,5 @@
+/**app.wxss**/
+@import "font/fontstyle.wxss"; 
+page{
+  background-color: #f3f3f3;
+}

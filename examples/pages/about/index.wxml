@@ -1,0 +1,54 @@
+<!-- pages/about/index.wxml -->
+
+<view class='container'>
+
+  <view class='logo-container'>
+    <image class='logo-img' src="https://7879-xy-5gf5b6p50536e388-1304009755.tcb.qcloud.la/aboutme.png"></image>
+   
+  </view>
+  <view class='address-container'>
+    <view class='dot' />
+    <view class='doc-container' bindtap='copyLink' data-link="http://doc.mini.7yue.pro">
+      <text class='doc-txt'>联系电话</text>
+      <text class='address'>15168419091</text>
+    </view>
+  </view>
+  <view class='address-container'>
+    <view class='dot' />
+    <view class='doc-container' bindtap='copyLink' data-link="https://github.com/Talelin/lin-ui">
+      <text class='doc-txt'>邮箱联系：</text>
+      <text class='address'>1214504814@qq.com</text>
+    </view>
+  </view>
+  <view class='address-container'>
+    <view class='dot' />
+    <view class='doc-container' bindtap='copyLink' data-link="https://gitee.com/talelin/lin-ui">
+      <text class='doc-txt'>专业方向：</text>
+      <text class='address'>电子信息</text>
+    </view>
+  </view>
+  <view class='attribute-container'>
+    <view class='attribute-title'>合作人员</view>
+    <view class='attribute-item'>
+      <view class='attribute-code-container'>
+        <view class='code-circle'></view>
+        <view class='code-name'>指导教师：</view>
+        <view class='coder'>余鹏飞</view>
+      </view>
+      <view class='attribute-code-container'>
+        <view class='code-circle'></view>
+        <view class='code-name'>策划</view>
+        <view class='coder'>南村群童</view>
+      </view>
+
+      <view class='attribute-code-container'>
+        <view class='code-circle'></view>
+        <view class='code-name'>贡献人员</view>
+        <view class='coder'>举杯忆柳时</view>
+      </view>
+
+    </view>
+  </view>
+
+
+</view>

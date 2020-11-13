@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "content-title": "/components/content-title/index",
+    "l-water-flow":"/dist/water-flow/index",
+    "product":"./component/product/index"
+  }
+}

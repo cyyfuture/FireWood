@@ -1,0 +1,18 @@
+<!--pages/filter/pages/zero-padding/index.wxml-->
+<wxs src='../../../../dist/filter/zero-padding.wxs' module='zeroPadding' />
+
+<content-title name="可莉" describe="金融工程19级" doc="{{false}}">
+  <content-card name="个人简介">
+    <image src="/images/默认f.jpg"></image>
+      <view>来自金融工程的19级生，擅长数据分析，对创新类比赛，时间充裕欢迎合作</view>
+  </content-card>
+  <content-card name="经历">
+    <view class="text-view">
+  ·全国数学建模大赛一等奖</view> <view class="text-view">
+  ·英语六级\n</view> <view class="text-view">
+  ·FCA初级认证\n</view> <view class="text-view">
+  ·鲲鹏商业创新大赛团队二等奖\n</view> <view class="text-view">
+    </view>
+
+  </content-card>
+</content-title>

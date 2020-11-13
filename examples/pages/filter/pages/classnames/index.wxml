@@ -1,0 +1,16 @@
+<!--pages/filter/pages/classnames/index.wxml-->
+<wxs src='../../../../dist/filter/classnames.wxs' module='classnames'/>
+<content-title name="以陌" doc="{{false}}">
+  <content-card name="个人简介">
+    <image src="/images/id6165632323.jpg"></image>
+      <view>物联网18级生</view>
+  </content-card>
+  <content-card name="经历">
+    <view class="text-view">
+  ·全国数学建模大赛三等奖</view> <view class="text-view">
+  ·英语六级\n</view> <view class="text-view">
+  ·电子工艺设计大赛全国二等奖\n</view> <view class="text-view">
+  ·嵌入式-计算机4级\n</view> <view class="text-view">
+    </view>
+  </content-card>
+</content-title>

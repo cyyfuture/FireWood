@@ -1,0 +1,54 @@
+/* pages/view/pages/dialog/index.wxss */
+
+.buttun-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40rpx;
+}
+
+.checkbox-img{
+  width: 30rpx;
+  height: 30rpx;
+  /* margin-right: 20rpx; */
+}
+
+.title {
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  line-height: 20px;
+  /* margin-left: 40rpx; */
+  margin-bottom: 30rpx;
+}
+
+.l-checkbox {
+  border: 1px solid #cccccc !important;
+  color: rgba(140, 152, 174, 1) !important;
+  padding: 0 30rpx;
+  border-radius: 10rpx;
+}
+.l-checkbox-disabled {
+  border: 1px solid #cccccc !important;
+  color: rgba(140, 152, 174, 1) !important;
+  padding: 0 30rpx;
+  border-radius: 10rpx;
+}
+.l-checkbox-group{
+  margin-top: 10rpx
+}
+
+.l-checkbox-color{
+  color: #707070 !important;
+}
+
+
+.l-title-class-border{
+  color: rgba(140,152,174,1);
+  border-bottom: 1rpx solid #eee;
+  padding: 10rpx 0;
+}
+
+.checkbox-mg{
+  margin: 10rpx;
+}

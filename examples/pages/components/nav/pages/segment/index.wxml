@@ -1,0 +1,110 @@
+
+<view class='container'>
+  <content-title name="Segment" describe="选项卡">
+    <content-card l-content="content" name="等宽选项卡">
+      <l-segment l-class="aaa">
+        <l-segment-item tab="客厅" key="one" />
+        <l-segment-item tab="卧室" key="two" />
+        <l-segment-item tab="厨房" key="three" />
+      </l-segment>
+    </content-card>
+
+    <content-card l-content="content" name="非等宽选项卡">
+      <l-segment l-class-header-line="header-line" even="{{false}}" scrollable animated-for-line="{{true}}">
+        <l-segment-item tab="精选" key="one">
+          <view class="tab-content">精选</view>
+        </l-segment-item>
+        <l-segment-item tab="居家生活" key="two">
+          <view class="tab-content">居家生活</view>
+        </l-segment-item>
+        <l-segment-item tab="美食厨房" key="three">
+          <view class="tab-content">美食厨房</view>
+        </l-segment-item>
+        <l-segment-item tab="美妆护肤" key="four">
+          <view class="tab-content">美妆</view>
+        </l-segment-item>
+        <l-segment-item tab="运动女装" key="five">
+          <view class="tab-content">运动女装</view>
+        </l-segment-item>
+        <l-segment-item tab="家用电器" key="six">
+          <view class="tab-content">家用电器</view>
+        </l-segment-item>
+        <l-segment-item tab="厨房用品" key="seven">
+          <view class="tab-content">厨房用品</view>
+        </l-segment-item>
+        <l-segment-item tab="卫生清洁" key="eight">
+          <view class="tab-content">卫生清洁</view>
+        </l-segment-item>
+        <l-segment-item tab="客厅" key="123" />
+        <l-segment-item tab="卧室" key="456" />
+        <l-segment-item tab="厨房" key="789" />
+        <l-segment-item tab="浴室" key="1011" />
+      </l-segment>
+    </content-card>
+
+    <content-card l-content="content" name="选项卡宽高">
+      <l-segment active-key="two" scrollable width="180" height="500" item-height="90" placement="left" even="{{false}}">
+        <l-segment-item tab="客厅" key="one" />
+        <l-segment-item tab="卧室" key="two" />
+        <l-segment-item tab="厨房" key="three" />
+        <l-segment-item tab="浴室" key="four" />
+      </l-segment>
+    </content-card>
+
+
+    <content-card l-content="content" name="选项卡位置">
+      <l-segment active-key="two" placement="{{placement}}" item-height="70">
+        <l-segment-item tab="客厅" key="one" />
+        <l-segment-item tab="卧室" key="two" />
+        <l-segment-item tab="厨房" key="three" />
+        <l-segment-item tab="浴室" key="four" />
+      </l-segment>
+      <l-button l-class="toggle-button" bind:lintap="toggleTabPlacement" icon="ellipsis" icon-size="36" icon-color="#333"></l-button>
+    </content-card>
+
+    <content-card l-content="content" name="图标选项卡">
+      <l-segment active-color="#FF783C" inactive-color="#333333" l-class-icon="icon-style">
+        <l-segment-item wx:for="{{iconTabs}}" tab="{{item.tab}}" key="{{item.key}}" wx:key="key" icon="{{item.icon}}" pic-placement="{{item.picPlacement}}" />
+      </l-segment>
+    </content-card>
+
+    <content-card l-content="content" name="图片标签">
+      <l-segment l-class-tabimage="tab-image" has-line="{{false}}">
+        <l-segment-item wx:for="{{imagesTabs}}" tab="{{item.tab}}" key="{{item.key}}" wx:key="key" image="{{item.image}}" pic-placement="{{item.picPlacement}}" />
+      </l-segment>
+    </content-card>
+
+    <content-card l-content="content" name="徽标选项卡">
+      <l-segment active-key="one">
+        <l-segment-item tab="客厅" key="one" dot-badge="{{true}}" />
+        <l-segment-item tab="卧室" key="two" badge-count="{{brageCount}}" />
+        <l-segment-item tab="厨房" key="three" badge-count="900" l-class-badge="badge-view" />
+        <l-segment-item tab="浴室" key="four" />
+      </l-segment>
+    </content-card>
+
+    <content-card l-content="content" name="自定义选项卡">
+      <l-segment l-class-tabimage="tab-image" has-line="{{false}}" l-class="segment-view" l-class-active="segment-active" activeKey="two">
+        <l-segment-item key="one" slot="one">
+          <view class="tab-item">
+            <view>2月12日 10：00</view>
+            <view>已开抢</view>
+          </view>
+        </l-segment-item>
+        <l-segment-item key="two" slot="two">
+          <view class="tab-item">
+            <view>2月13日 10：00</view>
+            <view>即将开始</view>
+          </view>
+        </l-segment-item>
+
+        <l-segment-item key="three" slot="three">
+          <view class="tab-item">
+            <view>2月14日 10：00</view>
+            <view>即将开始</view>
+          </view>
+        </l-segment-item>
+      </l-segment>
+    </content-card>
+  </content-title>
+</view>

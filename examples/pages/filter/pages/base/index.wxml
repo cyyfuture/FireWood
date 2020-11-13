@@ -1,0 +1,23 @@
+<!--pages/filter/pages/is/index.wxml-->
+<content-title name="语舍" describe="基于碎片化与游戏交互体验的小语种学习模式探索" doc="{{false}}">
+  <content-card name="项目简介">
+   
+    <view >“语舍”App作为基于互联网的语言学习平台，将投入资金对语言资源进行整合，希望基于互联网优势引入游戏式交互体验，不同于常规语种培训机构紧密而枯燥的课程安排，用户可以反客为主，自己选择想要学习或者掌握不熟练的模块从而得到更好的体验感。</view>
+    <view>团队需求：</view>
+    <view>团队现阶段以开发小程序平台为主要策略，诚聘能够熟练使用JavaScript、CSS、Html语言的同学，将优先考虑有独立开发项目经历的同学。</view>
+    
+  </content-card>
+  <content-card name="团队需求">
+
+    <view>团队现阶段以开发小程序平台为主要策略，诚聘能够熟练使用JavaScript、CSS、Html语言的同学，将优先考虑有独立开发项目经历的同学。</view>
+    
+  </content-card>
+
+
+  <content-card name="联系方式">
+    <view>
+      qq：1214504814@qq.com
+    </view>
+
+  </content-card>
+</content-title>
