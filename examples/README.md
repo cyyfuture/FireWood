@@ -25,10 +25,14 @@ Firewood 众智成薪不仅是大学生利用自身专业能力找任务的主�
 ![image](https://github.com/cyyfuture/FireWood/blob/master/NO2.png);
 
 #探索界面
-
 ![image](https://github.com/cyyfuture/FireWood/blob/master/NO3.png)
+
+
+
 #个人界面
 ![image](https://github.com/cyyfuture/FireWood/blob/master/NO4.png)
+
+
 
 ##体验码
 ![image](https://github.com/cyyfuture/FireWood/blob/master/%E4%BD%93%E9%AA%8C%E7%89%88%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
