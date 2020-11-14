@@ -19,12 +19,20 @@ Firewood 众智成薪不仅是大学生利用自身专业能力找任务的主�
 
 #运行图片
 #大厅界面
-https://github.com/cyyfuture/FireWood/NO1.png
-https://github.com/cyyfuture/FireWood/NO2.png
+
+
+![image](https://github.com/cyyfuture/FireWood/blob/master/NO1.png)
+![image](https://github.com/cyyfuture/FireWood/blob/master/NO2.png);
+
 #探索界面
-https://github.com/cyyfuture/FireWood/NO3.png
+
+![image](https://github.com/cyyfuture/FireWood/blob/master/NO3.png)
 #个人界面
-https://github.com/cyyfuture/FireWood/NO4.png
+![image](https://github.com/cyyfuture/FireWood/blob/master/NO4.png)
+
+##体验码
+![image](https://github.com/cyyfuture/FireWood/blob/master/%E4%BD%93%E9%AA%8C%E7%89%88%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
+
 
 #这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
 
